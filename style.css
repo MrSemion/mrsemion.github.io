@@ -404,59 +404,56 @@ aside .under-nav h1 {
 	width: 1500px;
 	height: 348px;
 }
+.block {
+	display: inline-block;
+	position: relative;
+	margin-top: 75px;
+}
 .information_bar h3 {
-	display: inline;
 	font-family: Raleway, sans-serif;
 	color: #ffffff;
-	font-size: 18px; /* Приближение из-за подстановки шрифтов */
+	font-size: 18px; Приближение из-за подстановки шрифтов
 	font-weight: 700;
 	text-align: left;
-	margin-left: 130px;
-	margin-top: 75px;
-	float: left;
 }
 .information_bar p {
 	font-family: Roboto, sans-serif;
 	color: #ffffff;
-	font-size: 12px; /* Приближение из-за подстановки шрифтов */
+	font-size: 12px; Приближение из-за подстановки шрифтов
 	font-weight: 400;
-	line-height: 18px; /* Приближение из-за подстановки шрифтов */
+	line-height: 18px; Приближение из-за подстановки шрифтов
 	text-align: left;
+	margin-top: 28px;
 }
-.information_bar .text_1 {
-	float: left;
-	margin-top: 120px;
-	margin-left: -77px;
+.information_bar .category {
+	width: 84px;
+	height: 117px;
+	margin-left: 192px;
 }
-.information_bar .text_2 {
-	float: left;
-	margin-top: 120px;
-	margin-left:-105px;
+.information_bar .account {
+	width: 113px;
+	height: 117px;
+	margin-left: 114px;
 }
-.information_bar .text_3 {
-	float: left;
-	margin-top: 120px;
-	margin-left:-105px;
+.information_bar .support {
+	width: 106px;
+	height: 118px;
+	margin-left: 87px;
 }
-.information_bar .text_4 {
-	float: left;
-	margin-top: 100px;
-	margin-left:-100px;
+.information_bar .newsletter {
+	width: 256px;
+	height: 22px;
+	margin-left: 87px;
 }
-.information_bar .text_4>p {
+.information_bar .newsletter>p {
 	font-family: Roboto, sans-serif;
 	color: #f8f8f8;
-	font-size: 12px; /*Приближение из-за подстановки шрифтов*/
+	font-size: 12px; Приближение из-за подстановки шрифтов
 	font-weight: 400;
-	line-height: 12px; /*Приближение из-за подстановки шрифтов*/
+	line-height: 12px; Приближение из-за подстановки шрифтов
 	text-align: left;
-	margin-top: 7px;
-}
-.information_bar .email {
-	position: absolute;
-	float: left;
-	margin-top: 145px;
-	margin-left: 825px;
+	margin-top: 17px;
+	margin-bottom: 31px;
 }
 input {
 	background-color: #fff51f;
@@ -465,11 +462,12 @@ input {
 	text-transform: uppercase;
 	font-family: Roboto, sans-serif;
 	color: #333333;
-	font-size: 12px; /* Приближение из-за подстановки шрифтов */
+	font-size: 12px; Приближение из-за подстановки шрифтов
 	font-weight: 700;
-	line-height: 21px; /* Приближение из-за подстановки шрифтов */
+	line-height: 21px; Приближение из-за подстановки шрифтов
 	text-align: left;
 	padding-left: 21px;
+	margin-top: -7px;
 }
 button {
 	background-color: #000000;
@@ -478,42 +476,38 @@ button {
 	text-transform: uppercase;
 	font-family: Roboto, sans-serif;
 	color: #ffffff;
-	font-size: 12px; /* Приближение из-за подстановки шрифтов */
+	font-size: 12px; Приближение из-за подстановки шрифтов
 	font-weight: 400;
-	line-height: 21px; /* Приближение из-за подстановки шрифтов */
+	line-height: 21px; Приближение из-за подстановки шрифтов
 	text-align: center;
 	margin-left: -4px;
+	margin-top: -7px;
 	float: right;
 }
-.payment_cards {
-	
-	display: inline-block;
-	float: left;
-	margin-left: -220px;
-}
 .payment_cards img {
-	margin-top: 218px;
-	margin-left: 10px;
+	margin-top: 28px;
+	margin-left: 3px;
 }
-.information_bar .text_5 {
-	float: left;
-	margin-top: 7px;
-	margin-left: 130px;
+.information_bar .about {
+	width: 232px;
+	height: 100px;
+	margin-left: 46px;
 }
-.information_bar .text_5>p {
+.information_bar .about>p {
 	font-family: Roboto, sans-serif;
 	color: #ffffff;
-	font-size: 12px; /* Приближение из-за подстановки шрифтов */
+	font-size: 12px; Приближение из-за подстановки шрифтов
 	font-weight: 400;
-	line-height: 12px; /* Приближение из-за подстановки шрифтов */
+	line-height: 12px; Приближение из-за подстановки шрифтов
 	text-align: left;
+	margin-top: 15px;
 }
-.information_bar .text_5>h4 {
+.information_bar .about>h4 {
 	font-family: Roboto, sans-serif;
 	color: #faef03;
-	font-size: 14px; /* Приближение из-за подстановки шрифтов */
+	font-size: 14px; Приближение из-за подстановки шрифтов
 	font-weight: 400;
-	line-height: 36px; /* Приближение из-за подстановки шрифтов */
+	line-height: 36px; Приближение из-за подстановки шрифтов
 	text-align: left;
 }
 /*===============================================================================================*/
