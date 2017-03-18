@@ -1,0 +1,195 @@
+@charset "utf-8";
+	
+body {
+	/*background-color: #f8f8f8; /* Фоновый цвет */
+	background: url(../img/fon.png) no-repeat center fixed;
+	background-size: cover;
+}
+
+.menu {
+	list-style-type: none; /* Отключение отрибутов списка */
+	color: #BEBEBE; /* Цвет текста */
+	font-family: serif; /* Стиль шрифта */
+	font-weight: bold; /* Начертание шрифта */
+	font-size: 20px; /* Размер шрифта */
+}
+.menu li {
+	display: inline; /* Расположение списка по горизонтали */
+	margin-right: 25px; /* Отступ в право */
+	border-color: #708090; /* Цвет бордюра */
+	border-style: outset; /* Стиль бордюра */
+	border-width: 3px; /* Ширина рамки */
+	border-radius: 8px; /* Закругление бордюра */
+	padding: 5px; /* Отступ текста от бордюра */
+}
+.menu li a {
+	color: #000000 /* Цвет текста */
+}
+
+a {
+	text-decoration: none; /* Отключение подчеркивания ссылок */
+	color: #FFFACD; /* Цвет текста */
+}
+
+.button_detail {
+	color: #CD2626;
+}
+
+fieldset {
+	width: 650px; /* Ширина в пикселах */
+}
+
+h2 {
+	color: #000000; /* Цвет текста */
+	font-size: 18px; /* Размер шрифта */
+	font-weight: 400; /* Насыщенность шрифта */
+	background: #eaeaea; /* цвет фона текста */
+}
+
+textarea {
+	width: 95%; /* Ширина в процентах */
+	height: 200px; /* Высота в пикселах */
+	text-transform: capitalize;
+}
+
+input{
+  text-transform: capitalize;  
+}
+
+.form_fields {
+	color: #00008B; /* Цвет текста */
+	font-size: 18px; /* Размер шрифта */
+}
+
+.message_text {
+	font-family: 'arial black'; /* Стиль шрифта */
+	font-size: 18px; /* Размер шрифта */
+}
+
+.send_button {
+	color: #008B45; /* Цвет текста */
+	font-size: 20px; /* Размер шрифта */
+	background: #f8f8f8; /* цвет фона текста */
+	border: 3px outset #CFCFCF; /* ширина бордюра, стиль и цвет рамки */
+}
+
+.frame {
+	border: 5px groove #CDCDC1; /* ширина бордюра, стиль и цвет рамки */
+	border-radius: 8px;
+}
+
+.catalog {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.block .name {
+	color: #CD2626; /* Цвет текста */
+	font-size: 24px; /* Размер шрифта */
+	font-weight: 900; /* Насыщенность шрифта */
+}
+
+.block_1 {
+	position: relative;
+}
+
+.block_1_1 {
+	position: absolute;
+	top: 15px;
+	left: 25px;
+}
+
+.block_1_2 {
+	position: absolute;
+	top: 220px;
+	left: 25px;
+} 
+
+.block_2 {
+	position: relative;
+}
+
+.block_2_1 {
+	position: absolute;
+	top: 15px;
+	left: 25px;
+}
+
+.block_2_2 {
+	position: absolute;
+	top: 220px;
+	left: 25px;
+} 
+
+.footer {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  background: #008080;
+}
+
+.footer_text {
+	margin: 25px 50px;
+}
+
+.header {
+	position:fixed;
+	left: 0;
+	top:0;
+	width:100%;
+	background: #008080;
+}
+
+.content {
+	margin: 180px 50px;
+}
+
+.our_address {
+	margin: 100px 0;
+}
+
+
+.header_text {
+	margin: 10px 15px;
+}
+
+.menu .logo {
+	border-style: none;
+
+}
+/*================================*/
+table {
+    width: 300px; /* Ширина таблицы */
+    background: #fffff0; /* Цвет фона нечетных строк */
+    border: 1px solid #a52a2a; /* Рамка вокруг таблицы */
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+   }
+td, th {
+    padding: 3px; /* Поля вокруг содержимого ячейки */
+}
+td {
+    text-align: center; /* Выравнивание по центру */
+    border-bottom: 1px solid #a52a2a; /* Линия внизу ячейки */
+}
+th {
+    background: #a52a2a; /* Цвет фона */
+    color: white; /* Цвет текста */
+}
+tr.even {
+    background: #fff8dc; /* Цвет фона четных строк */
+}
+.la {
+    text-align: left; /* Выравнивание по левому краю */
+}
+tr th {
+	text-align: center;
+}
+
+.sales_table {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 100px;
+}
+/*============================================*/
