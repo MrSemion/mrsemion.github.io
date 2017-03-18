@@ -70,13 +70,6 @@
 	margin-top: 8px;
 }
 
-.product-description h5:after,
-.product-description h6:after {
-	display: block;
-	content: '';
-	clear: both;
-}
-
 .product-corner_new {
 	position: absolute;
 	background-image: url(img/icons/corner_new.png);
